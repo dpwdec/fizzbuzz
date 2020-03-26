@@ -10,7 +10,6 @@ def fizzbuzz(number)
     fb_output += 'buzz'
   end
   
-  
   if fb_output == ""
     fb_output = number.to_s
   end
