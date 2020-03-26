@@ -1,7 +1,15 @@
 def fizzbuzz(number)
-  if number == 3
-    'fizz'
-  else
-    'buzz'
+  
+  fb_output = ""
+  
+  if number % 3 == 0
+    fb_output += 'fizz'
   end
+  
+  if number % 5 == 0
+    fb_output += 'buzz'
+  end
+  
+  return fb_output
+    
 end
